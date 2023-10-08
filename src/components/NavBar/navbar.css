@@ -1,0 +1,93 @@
+    @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Croissant+One&family=Libre+Baskerville:wght@700&family=Lora&family=PT+Sans&family=Roboto+Slab&family=Skranji&family=Young+Serif&display=swap');
+    .navbar {
+        background: black;
+        height: 15vh;
+        width: 100vw;
+        margin: 0 auto;
+        /* padding: 2.5rem 2rem; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: sticky;
+        top: 0;
+        z-index: 3;
+    }
+    
+    .logo {
+        object-fit: cover;
+        height: 3rem;
+        width: 16rem;
+        padding: auto 8px;
+        align-items: left;
+    }
+    
+    .desktopmenu {
+        /* float: right; */
+        margin: 80px;
+        float: right;
+    }
+    
+    .desktopmenulist {
+        font-size: 1.0rem;
+        margin: 1rem;
+        cursor: pointer;
+        position: relative;
+        font-family: 'Libre Baskerville', serif;
+        gap: 10px;
+    }
+    
+    .desktopmenulist:not(.active):hover {
+        color: red;
+        padding-bottom: 1.5rem;
+        border-bottom: 5px solid red;
+    }
+    
+    .active {
+        color: white;
+    }
+    
+    .mobMenu {
+        display: none;
+        object-fit: cover;
+        height: 1.8rem;
+    }
+    
+    .navmenu {
+        position: absolute;
+        top: 4rem;
+        right: 2rem;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        height: fit-content;
+        min-width: 15rem;
+        background-color: rgb(40, 40, 40);
+        border-radius: 1rem;
+    }
+    
+    .listi {
+        color: white;
+        padding: 0.5rem 3rem;
+        margin: 0.25rem;
+        background-color: rgb(30, 30, 30);
+    }
+    
+    .listi:not(.active):hover {
+        color: red;
+        padding-bottom: 1.5rem;
+        border-bottom: 5px solid red;
+    }
+    
+    @media screen and (max-width: 720px) {
+        .mobMenu {
+            display: flex;
+            flex-direction: column;
+        }
+        .desktopmenu {
+            display: none;
+        }
+        .navmenu {
+            flex-direction: column;
+        }
+    }

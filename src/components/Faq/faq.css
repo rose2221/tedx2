@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Croissant+One&family=Libre+Baskerville:wght@700&family=Lora&family=PT+Sans&family=Roboto+Slab&family=Skranji&family=Young+Serif&display=swap');
+#faq {
+    font-family: 'Libre Baskerville', serif;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-heading {
+    border-bottom: #777;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 4rem;
+    /* padding: 20px 60px; */
+}
+
+.faq-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.hr-line {
+    width: 60%;
+    margin: auto;
+}
+
+.faq-page {
+    /* background-color: #eee; */
+    display: flex;
+    color: white;
+    cursor: pointer;
+    padding: 50px 20px;
+    width: 60%;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    font-size: 1.3rem;
+}
+
+.faq-body {
+    margin: auto;
+    /* text-align: center; */
+    width: 50%;
+    padding: auto;
+}
+
+.active,
+.faq-page:hover {
+    background-color: rgb(242, 12, 12);
+}
+
+.faq-body {
+    padding: 25px 25px;
+    background-color: white;
+    color: black;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    color: white;
+    /* Unicode character for "minus" sign (-) */
+}
+
+@media screen and (max-width:720px) {
+    .faq-heading {
+        font-size: 6vw;
+        margin-bottom: 1vh;
+    }
+    .faq-page {
+        font-size: 4vw;
+        padding: 5px 20px;
+        width: 80vw;
+    }
+    .hr-line {
+        width: 80v;
+        margin: auto;
+    }
+    .faq-body {
+        /* text-align: center; */
+        width: 70vw;
+    }
+    .faq-page1 {
+        font-size: 4.3vw;
+    }
+}

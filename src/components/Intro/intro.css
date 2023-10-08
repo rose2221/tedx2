@@ -1,0 +1,78 @@
+            @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Croissant+One&family=Libre+Baskerville:wght@700&family=Lora&family=PT+Sans&family=Roboto+Slab&family=Skranji&family=Young+Serif&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Croissant+One&family=Libre+Baskerville:wght@700&family=Lora&family=PT+Sans&family=Roboto+Slab&family=Skranji&family=Young+Serif&display=swap');
+            #intro {
+                background-image: url("../../assets/WhatsApp Image 2023-10-08 at 17.24.20_48244eef.jpg");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 85vh;
+                width: 100vw;
+                /* max-width: 75rem; */
+                overflow: hidden;
+            }
+            
+            .introcontent {
+                align-items: center;
+                padding: 1.5rem;
+                font-size: 4vw;
+                font-weight: 700;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                /* font-family: 'Caprasimo', cursive; */
+            }
+            
+            .text {
+                padding: 8vh;
+                /* font-family: 'Caprasimo', cursive; */
+            }
+            
+            .font {
+                display: block;
+                margin: 0 auto;
+                padding-top: 0rem;
+                height: 15vh;
+                width: 50vw;
+                height: auto;
+            }
+            
+            .register {
+                background: white;
+                margin: 1rem 0;
+                padding: 0.75rem 2rem;
+                border: none;
+                border-radius: 2rem;
+                /* font-family: 'Caprasimo', cursive; */
+                font-family: 'Libre Baskerville', serif;
+            }
+            
+            .speakers {
+                background: white;
+                margin: 1rem 0;
+                padding: 0.75rem 2rem;
+                border: none;
+                border-radius: 2rem;
+                /* font-family: 'Caprasimo', cursive; */
+                font-family: 'Libre Baskerville', serif;
+            }
+            
+            @media screen and (max-width:784px) {
+                .font {
+                    width: 80vw;
+                    height: auto;
+                }
+                .introcontent {
+                    padding: 100px 0px;
+                }
+                .text {
+                    font-size: 2rem;
+                    padding: 8vh;
+                }
+                .location {
+                    font-size: 1.3rem;
+                    text-align: center;
+                }
+                #intro {
+                    height: 65vh;
+                }
+            }
