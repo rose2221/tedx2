@@ -7,9 +7,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
+### `npm i react-scroll`
+### `npm install @emailjs/browser --save`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I utilized the EmailJS service to automate the email generation and sending process when a user clicks the submit button. The intention was to send the email to TEDx IIT Roorkee's official email address. However, I couldn't proceed with the integration because I lacked access to TEDx IIT Roorkee's email address. You can follow the instructions provided on this website, "https://www.emailjs.com/docs/examples/reactjs/" to achieve a similar functionality. 
+Link to the website - ""
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
