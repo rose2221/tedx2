@@ -19,7 +19,7 @@ const Form = () => {
               console.log(error.text);
           });
       };
-    return (<section id= "fork">
+    return (<section id= "form">
         <h1 className="contactpagetitle">Contact Us!</h1>
         <span className="contactdesc">Please fill out the from below.</span>
  
