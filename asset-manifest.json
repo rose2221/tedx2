@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tedx2/static/css/main.2e32cc74.css",
-    "main.js": "/tedx2/static/js/main.bde04eec.js",
+    "main.css": "/tedx2/static/css/main.e487b6b5.css",
+    "main.js": "/tedx2/static/js/main.7c69824a.js",
     "static/media/Screenshot (303).png": "/tedx2/static/media/Screenshot (303).4925e8b3e8ac21cff2db.png",
     "static/media/WhatsApp Image 2023-10-08 at 17.24.20_48244eef.jpg": "/tedx2/static/media/WhatsApp Image 2023-10-08 at 17.24.20_48244eef.5943ea39bdb0d4a616b9.jpg",
     "static/media/iconf.png": "/tedx2/static/media/iconf.031ee029e532e90cae8b.png",
@@ -10,11 +10,11 @@
     "static/media/Screenshot (302).png": "/tedx2/static/media/Screenshot (302).5a82b5dc67117dfbfd75.png",
     "static/media/instagram.png": "/tedx2/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/tedx2/index.html",
-    "main.2e32cc74.css.map": "/tedx2/static/css/main.2e32cc74.css.map",
-    "main.bde04eec.js.map": "/tedx2/static/js/main.bde04eec.js.map"
+    "main.e487b6b5.css.map": "/tedx2/static/css/main.e487b6b5.css.map",
+    "main.7c69824a.js.map": "/tedx2/static/js/main.7c69824a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e32cc74.css",
-    "static/js/main.bde04eec.js"
+    "static/css/main.e487b6b5.css",
+    "static/js/main.7c69824a.js"
   ]
 }
