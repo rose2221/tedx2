@@ -1,6 +1,6 @@
 import React from 'react';
 import "./contact.css";
-import hall from "../../assets/Screenshot (303).png";
+import hall from "../../assets/WhatsApp Image 2023-10-08 at 17.58.36_4296896a.jpg";
 import icon from "../../assets/Screenshot (302).png";
 
 
