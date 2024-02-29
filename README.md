@@ -15,7 +15,7 @@ I utilized the EmailJS service to automate the email generation and sending proc
 Link to the website - "https://rose2221.github.io/tedx2/"
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
+
 
 ### `npm test`
 
